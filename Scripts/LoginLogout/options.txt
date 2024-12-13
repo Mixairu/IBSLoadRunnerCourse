@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IE:\VuGenTestScripts\LoginLogout
+-IE:\LoadRunner2020\include
+-ee:\vugentestscripts\loginlogout\\logfile.log
+e:\vugentestscripts\loginlogout\\combined_LoginLogout.c
+e:\vugentestscripts\loginlogout\\pre_cci.c

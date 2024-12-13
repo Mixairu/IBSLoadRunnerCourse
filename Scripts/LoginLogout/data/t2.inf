@@ -1,0 +1,15 @@
+[t2]
+FileName1=t2_success.txt
+URL1=http://detectportal.firefox.com/success.txt?ipv4
+Total=2
+ContentType=text/plain
+SnapshotXmlFile=snapshot_2.xml
+RequestHeaderFile=t2_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t2_ResponseHeader.txt
+FileName2=t2f0.htm
+URL2=http://localhost:1080/cgi-bin/nav.pl?in=home
+FrameIndex2=0.0
+UseFrameIndex=1
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,13 @@
+[t24]
+FileName1=t23.htm
+URL1=http://detectportal.firefox.com/canonical.html
+Total=2
+SnapshotXmlFile=snapshot_24.xml
+RequestHeaderFile=t24_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t24_ResponseHeader.txt
+FileName2=t24_mer_login.gif
+URL2=http://localhost:1080/WebTours/images/mer_login.gif
+ContentType=image/gif
+[ProtocolInfo]
+ProtocolId=QTWeb

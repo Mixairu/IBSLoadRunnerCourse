@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IE:\VuGenTestScripts\Buyticket
+-IE:\LoadRunner2020\include
+-ee:\vugentestscripts\buyticket\\logfile.log
+e:\vugentestscripts\buyticket\\combined_Buyticket.c
+e:\vugentestscripts\buyticket\\pre_cci.c

@@ -1,0 +1,81 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: WebTours",
+                "infFile": "t1.inf",
+                "time": 1734055446281
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Url: login.pl",
+                "infFile": "t2.inf",
+                "time": 1734055446448
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Submit Data: login.pl_2",
+                "infFile": "t3.inf",
+                "time": 1734055446605
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Url: welcome.pl",
+                "infFile": "t4.inf",
+                "time": 1734055446831
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Url: SignOff Button",
+                "infFile": "t5.inf",
+                "time": 1734055447038
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "GoTo WebTours",
+                "rawStartTime": 1734055445920,
+                "rawEndTime": 1734055446283,
+                "thinkTime": 0.0,
+                "wastedTime": 0.1512742042541504
+            },
+            {
+                "transactionName": "GoTo reg",
+                "rawStartTime": 1734055446285,
+                "rawEndTime": 1734055446450,
+                "thinkTime": 0.0,
+                "wastedTime": 0.009102582931518555
+            },
+            {
+                "transactionName": "reg user",
+                "rawStartTime": 1734055446453,
+                "rawEndTime": 1734055446606,
+                "thinkTime": 0.0,
+                "wastedTime": 0.01262664794921875
+            },
+            {
+                "transactionName": "beck to main",
+                "rawStartTime": 1734055446608,
+                "rawEndTime": 1734055446832,
+                "thinkTime": 0.0,
+                "wastedTime": 0.010101079940795899
+            },
+            {
+                "transactionName": "logout",
+                "rawStartTime": 1734055446835,
+                "rawEndTime": 1734055447040,
+                "thinkTime": 0.0,
+                "wastedTime": 0.008176565170288086
+            },
+            {
+                "transactionName": "UC5_RegisterUser",
+                "rawStartTime": 1734055445912,
+                "rawEndTime": 1734055447041,
+                "thinkTime": 0.0,
+                "wastedTime": 0.19128108024597169
+            }
+        ]
+    }
+]

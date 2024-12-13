@@ -1,0 +1,55 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: WebTours",
+                "infFile": "t2.inf",
+                "time": 1733937899451
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Submit Data: login.pl",
+                "infFile": "t3.inf",
+                "time": 1733937899666
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Url: welcome.pl",
+                "infFile": "t4.inf",
+                "time": 1733937899934
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "GoTo WebTours",
+                "rawStartTime": 1733937899206,
+                "rawEndTime": 1733937899457,
+                "thinkTime": 0.0,
+                "wastedTime": 0.07046294212341309
+            },
+            {
+                "transactionName": "login",
+                "rawStartTime": 1733937899473,
+                "rawEndTime": 1733937899679,
+                "thinkTime": 0.0,
+                "wastedTime": 0.005284786224365234
+            },
+            {
+                "transactionName": "GoTo Itnerary",
+                "rawStartTime": 1733937899696,
+                "rawEndTime": 1733937899948,
+                "thinkTime": 0.0,
+                "wastedTime": 0.005204200744628906
+            },
+            {
+                "transactionName": "UC4_ViewTicketList",
+                "rawStartTime": 1733937899176,
+                "rawEndTime": 1733937899965,
+                "thinkTime": 0.0,
+                "wastedTime": 0.08095192909240723
+            }
+        ]
+    }
+]

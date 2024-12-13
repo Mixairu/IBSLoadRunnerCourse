@@ -1,0 +1,107 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: WebTours",
+                "infFile": "t2.inf",
+                "time": 1734011774684
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Submit Data: login.pl",
+                "infFile": "t3.inf",
+                "time": 1734011774968
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Url: welcome.pl",
+                "infFile": "t4.inf",
+                "time": 1734011775273
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Submit Data: reservations.pl",
+                "infFile": "t5.inf",
+                "time": 1734011775448
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Submit Data: reservations.pl_2",
+                "infFile": "t6.inf",
+                "time": 1734011775601
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Submit Data: reservations.pl_3",
+                "infFile": "t7.inf",
+                "time": 1734011775774
+            },
+            {
+                "stepId": "STEP7",
+                "stepName": "Submit Data: reservations.pl_4",
+                "infFile": "t8.inf",
+                "time": 1734011775953
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "GoTo WebTours",
+                "rawStartTime": 1734011774276,
+                "rawEndTime": 1734011774686,
+                "thinkTime": 0.0,
+                "wastedTime": 0.17288470268249513
+            },
+            {
+                "transactionName": "Login",
+                "rawStartTime": 1734011774688,
+                "rawEndTime": 1734011774969,
+                "thinkTime": 0.0,
+                "wastedTime": 0.013512134552001953
+            },
+            {
+                "transactionName": "GoTo Flights",
+                "rawStartTime": 1734011774971,
+                "rawEndTime": 1734011775279,
+                "thinkTime": 0.0,
+                "wastedTime": 0.012329816818237305
+            },
+            {
+                "transactionName": "reservation",
+                "rawStartTime": 1734011775281,
+                "rawEndTime": 1734011775451,
+                "thinkTime": 0.0,
+                "wastedTime": 0.009260892868041993
+            },
+            {
+                "transactionName": "FindFlight",
+                "rawStartTime": 1734011775453,
+                "rawEndTime": 1734011775602,
+                "thinkTime": 0.0,
+                "wastedTime": 0.009057998657226563
+            },
+            {
+                "transactionName": "Payment details",
+                "rawStartTime": 1734011775603,
+                "rawEndTime": 1734011775776,
+                "thinkTime": 0.0,
+                "wastedTime": 0.007538318634033203
+            },
+            {
+                "transactionName": "Book Another",
+                "rawStartTime": 1734011775779,
+                "rawEndTime": 1734011775955,
+                "thinkTime": 0.0,
+                "wastedTime": 0.008689403533935547
+            },
+            {
+                "transactionName": "UC3_BuyTicket",
+                "rawStartTime": 1734011774268,
+                "rawEndTime": 1734011775956,
+                "thinkTime": 0.0,
+                "wastedTime": 0.23327326774597169
+            }
+        ]
+    }
+]

@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IE:\VuGenTestScripts\RegisterUser
+-IE:\LoadRunner2020\include
+-ee:\vugentestscripts\registeruser\\logfile.log
+e:\vugentestscripts\registeruser\\combined_RegisterUser.c
+e:\vugentestscripts\registeruser\\pre_cci.c

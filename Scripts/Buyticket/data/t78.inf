@@ -1,0 +1,10 @@
+[t78]
+FileName1=t77.htm
+URL1=http://detectportal.firefox.com/canonical.html
+Total=1
+SnapshotXmlFile=snapshot_78.xml
+RequestHeaderFile=t78_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t78_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

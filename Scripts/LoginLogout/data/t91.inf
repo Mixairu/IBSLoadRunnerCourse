@@ -1,0 +1,15 @@
+[t91]
+FileName1=t91.htm
+URL1=http://localhost:1080/WebTours/
+Total=2
+RequestHeaderFile=t91_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t91_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_91.xml
+FileName2=t91f0.htm
+URL2=http://localhost:1080/WebTours/header.html
+FrameIndex2=0.0
+UseFrameIndex=1
+[ProtocolInfo]
+ProtocolId=QTWeb

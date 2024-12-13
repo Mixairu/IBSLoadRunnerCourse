@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\Mika.DESKTOP-Q6GSOJE\Desktop\VuGenScripts\ViewingListOfTripTickets
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\mika.desktop-q6gsoje\desktop\vugenscripts\viewinglistoftriptickets\\logfile.log
+c:\users\mika.desktop-q6gsoje\desktop\vugenscripts\viewinglistoftriptickets\\combined_ViewingListOfTripTickets.c
+c:\users\mika.desktop-q6gsoje\desktop\vugenscripts\viewinglistoftriptickets\\pre_cci.c

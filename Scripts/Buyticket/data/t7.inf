@@ -1,0 +1,15 @@
+[t7]
+FileName1=t6.htm
+URL1=http://detectportal.firefox.com/canonical.html
+Total=2
+SnapshotXmlFile=snapshot_7.xml
+RequestHeaderFile=t7_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t7_ResponseHeader.txt
+FileName2=t7f1f0.htm
+URL2=http://localhost:1080/cgi-bin/nav.pl?in=home
+ContentType=text/html
+FrameIndex2=0.1.0
+UseFrameIndex=1
+[ProtocolInfo]
+ProtocolId=QTWeb

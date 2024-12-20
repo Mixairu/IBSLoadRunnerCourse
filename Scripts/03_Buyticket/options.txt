@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IE:\IBSLoadRunnerCourse\Scripts\Buyticket
+-IE:\LoadRunner2020\include
+-ee:\ibsloadrunnercourse\scripts\buyticket\\logfile.log
+e:\ibsloadrunnercourse\scripts\buyticket\\combined_Buyticket.c
+e:\ibsloadrunnercourse\scripts\buyticket\\pre_cci.c

@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IE:\IBSLoadRunnerCourse\Scripts\ViewingListOfTripTickets
+-IE:\LoadRunner2020\include
+-ee:\ibsloadrunnercourse\scripts\viewinglistoftriptickets\\logfile.log
+e:\ibsloadrunnercourse\scripts\viewinglistoftriptickets\\combined_ViewingListOfTripTickets.c
+e:\ibsloadrunnercourse\scripts\viewinglistoftriptickets\\pre_cci.c

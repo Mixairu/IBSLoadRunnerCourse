@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IE:\IBSLoadRunnerCourse\Scripts\RegisterUser
+-IE:\LoadRunner2020\include
+-ee:\ibsloadrunnercourse\scripts\registeruser\\logfile.log
+e:\ibsloadrunnercourse\scripts\registeruser\\combined_RegisterUser.c
+e:\ibsloadrunnercourse\scripts\registeruser\\pre_cci.c

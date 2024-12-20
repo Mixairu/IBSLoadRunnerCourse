@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IE:\IBSLoadRunnerCourse\Scripts\RegisterRandomUsers
+-IE:\LoadRunner2020\include
+-ee:\ibsloadrunnercourse\scripts\registerrandomusers\\logfile.log
+e:\ibsloadrunnercourse\scripts\registerrandomusers\\combined_RegisterRandomUsers.c
+e:\ibsloadrunnercourse\scripts\registerrandomusers\\pre_cci.c

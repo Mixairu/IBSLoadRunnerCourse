@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IE:\IBSLoadRunnerCourse\Scripts\LoginLogout
+-IE:\LoadRunner2020\include
+-ee:\ibsloadrunnercourse\scripts\loginlogout\\logfile.log
+e:\ibsloadrunnercourse\scripts\loginlogout\\combined_01_LoginLogout.c
+e:\ibsloadrunnercourse\scripts\loginlogout\\pre_cci.c

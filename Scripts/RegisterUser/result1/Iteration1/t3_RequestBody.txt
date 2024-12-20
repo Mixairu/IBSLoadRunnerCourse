@@ -1,2 +1,0 @@
-"username=vitoGambino&password=DonVito01%21&passwordConfirm=DonVito01%21&firstName=Vito&lastNam"
-"e=Gambino&address1=Sicily+Avenue&address2=Little+Italy&register.x=49&register.y=5"

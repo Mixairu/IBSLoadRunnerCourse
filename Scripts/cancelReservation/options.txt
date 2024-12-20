@@ -1,9 +1,0 @@
--+
--DCCI
--D_IDA_XL
--DWINNT
--IE:\VuGenTestScripts\cancelReservation
--IE:\LoadRunner2020\include
--ee:\vugentestscripts\cancelreservation\\logfile.log
-e:\vugentestscripts\cancelreservation\\combined_æancelReservation.c
-e:\vugentestscripts\cancelreservation\\pre_cci.c

@@ -1,9 +1,0 @@
--+
--DCCI
--D_IDA_XL
--DWINNT
--IE:\VuGenTestScripts\SearchTicket
--IE:\LoadRunner2020\include
--ee:\vugentestscripts\searchticket\\logfile.log
-e:\vugentestscripts\searchticket\\combined_SearchTicket.c
-e:\vugentestscripts\searchticket\\pre_cci.c

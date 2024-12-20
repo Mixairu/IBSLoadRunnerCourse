@@ -16,7 +16,6 @@ Action()
 		"1");
 
 	
-	web_remove_cookie("userSession");
 	
 	web_reg_find("Text=A Session ID has been created",LAST);
 

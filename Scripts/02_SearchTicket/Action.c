@@ -46,7 +46,7 @@ Action()
 
 	lr_think_time(5);
 
-	lr_start_transaction("LogIn");
+	lr_start_transaction("Login");
 
 	web_add_header("Origin", 
 		"http://localhost:1080");
@@ -80,7 +80,7 @@ Action()
 		LAST);
 
 
-	lr_end_transaction("LogIn",LR_AUTO);
+	lr_end_transaction("Login",LR_AUTO);
 	
 	lr_think_time(5);
 

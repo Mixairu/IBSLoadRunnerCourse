@@ -4,7 +4,7 @@ Action()
 	lr_start_transaction("UC1_LoginLogout");
 
 
-	lr_start_transaction("Goto_WebTours");
+	lr_start_transaction("Goto WebTours");
 
 	web_reg_find("Text=A Session ID has been created",LAST);
 	
@@ -31,7 +31,7 @@ Action()
 		LAST);
 
 
-	lr_end_transaction("Goto_WebTours",LR_AUTO);
+	lr_end_transaction("Goto WebTours",LR_AUTO);
 	
 	lr_think_time(5);
 

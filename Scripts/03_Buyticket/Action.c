@@ -125,7 +125,7 @@ Action()
 	
 	lr_think_time(5);
 	
-	lr_start_transaction("reservation");
+	lr_start_transaction("FindFlight");
 	
 	
 //	lr_save_string(lr_paramarr_random("departCity"),"randDepartCity");
@@ -183,11 +183,11 @@ lr_save_string(randArriveCity, "randArriveCity");
 		LAST);
 
 	
-	lr_end_transaction("reservation", LR_AUTO);
+	lr_end_transaction("FindFlight", LR_AUTO);
 	
 	lr_think_time(5);
 	
-	lr_start_transaction("FindFlight");
+	lr_start_transaction("ChooseTicket");
 	
 	web_reg_find("Text=<title>Flight Reservation</title>",LAST);
 	web_reg_find("Text=firstName\" value=\"{firstName}\"", LAST);
@@ -210,7 +210,7 @@ lr_save_string(randArriveCity, "randArriveCity");
 		"Name=reserveFlights.y", "Value=6", ENDITEM,
 		LAST);
 
-	lr_end_transaction("FindFlight", LR_AUTO);
+	lr_end_transaction("ChooseTicket", LR_AUTO);
 
 	lr_think_time(5);
 

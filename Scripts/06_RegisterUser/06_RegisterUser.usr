@@ -53,7 +53,7 @@ vuser_init=cci
 Action=cci
 vuser_end=cci
 [TransactionsOrder]
-Order="UC6_RegisterUser__*delimiter*__GoTo WebTours__*delimiter*__GoTo reg__*delimiter*__reg user__*delimiter*__beck to main__*delimiter*__logout"
+Order="UC6_RegisterUser__*delimiter*__GoTo WebTours__*delimiter*__GoTo reg__*delimiter*__reg user__*delimiter*__click continue__*delimiter*__logout"
 [StateManagement]
 LastReplayStatus=1
 [ActiveReplay]
@@ -64,7 +64,7 @@ UC6_RegisterUser=
 "GoTo WebTours"=
 "GoTo reg"=
 "reg user"=
-"beck to main"=
+"click continue"=
 logout=
 [ExtraFilesToParse]
 AsyncCallbacks.c=

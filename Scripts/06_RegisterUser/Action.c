@@ -88,7 +88,7 @@ Action()
 	
 		lr_think_time(5);
 
-	lr_start_transaction("beck to main");
+	lr_start_transaction("click continue");
 
 	web_add_auto_header("Priority", 
 		"u=4");
@@ -112,7 +112,7 @@ Action()
 		"Mode=HTML", 
 		LAST);
 
-	lr_end_transaction("beck to main",LR_AUTO);
+	lr_end_transaction("click continue",LR_AUTO);
 
 		lr_think_time(5);
 

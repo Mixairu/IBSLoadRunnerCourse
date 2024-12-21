@@ -6,68 +6,75 @@
                 "stepId": "STEP1",
                 "stepName": "Url: WebTours",
                 "infFile": "t2.inf",
-                "time": 1734628267168
+                "time": 1734785722244
             },
             {
                 "stepId": "STEP2",
                 "stepName": "Submit Data: login.pl",
                 "infFile": "t3.inf",
-                "time": 1734628267505
+                "time": 1734785722714
             },
             {
                 "stepId": "STEP3",
                 "stepName": "Url: welcome.pl",
                 "infFile": "t4.inf",
-                "time": 1734628267845
+                "time": 1734785723196
             },
             {
                 "stepId": "STEP4",
                 "stepName": "Submit Data: reservations.pl",
                 "infFile": "t6.inf",
-                "time": 1734628268065
+                "time": 1734785723597
             },
             {
                 "stepId": "STEP5",
                 "stepName": "Submit Data: reservations.pl_2",
                 "infFile": "t7.inf",
-                "time": 1734628268242
+                "time": 1734785723842
             }
         ],
         "transactions": [
             {
                 "transactionName": "GoTo WebTours",
-                "rawStartTime": 1734628266712,
-                "rawEndTime": 1734628267169,
+                "rawStartTime": 1734785721721,
+                "rawEndTime": 1734785722251,
                 "thinkTime": 0.0,
-                "wastedTime": 0.18674683570861817
+                "wastedTime": 0.1802513599395752
             },
             {
                 "transactionName": "LogIn",
-                "rawStartTime": 1734628267173,
-                "rawEndTime": 1734628267507,
+                "rawStartTime": 1734785722283,
+                "rawEndTime": 1734785722730,
                 "thinkTime": 0.0,
-                "wastedTime": 0.011265993118286133
+                "wastedTime": 0.014745473861694336
             },
             {
                 "transactionName": "GoTo Fligths",
-                "rawStartTime": 1734628267509,
-                "rawEndTime": 1734628267847,
+                "rawStartTime": 1734785722762,
+                "rawEndTime": 1734785723198,
                 "thinkTime": 0.0,
-                "wastedTime": 0.02126765251159668
+                "wastedTime": 0.02530050277709961
             },
             {
                 "transactionName": "FindFlight",
-                "rawStartTime": 1734628267850,
-                "rawEndTime": 1734628268244,
+                "rawStartTime": 1734785723229,
+                "rawEndTime": 1734785723602,
                 "thinkTime": 0.0,
-                "wastedTime": 0.01722574234008789
+                "wastedTime": 0.013998031616210938
+            },
+            {
+                "transactionName": "ChooseTicket",
+                "rawStartTime": 1734785723634,
+                "rawEndTime": 1734785723850,
+                "thinkTime": 0.0,
+                "wastedTime": 0.007067203521728516
             },
             {
                 "transactionName": "UC2_FindFlight",
-                "rawStartTime": 1734628266700,
-                "rawEndTime": 1734628268246,
+                "rawStartTime": 1734785721691,
+                "rawEndTime": 1734785723864,
                 "thinkTime": 0.0,
-                "wastedTime": 0.23650622367858888
+                "wastedTime": 0.2413625717163086
             }
         ]
     }

@@ -53,7 +53,7 @@ vuser_init=cci
 Action=cci
 vuser_end=cci
 [TransactionsOrder]
-Order="UC3_BuyTicket__*delimiter*__GoTo WebTours__*delimiter*__Login__*delimiter*__GoTo Flights__*delimiter*__reservation__*delimiter*__FindFlight__*delimiter*__Payment details__*delimiter*__Book Another"
+Order="UC3_BuyTicket__*delimiter*__GoTo WebTours__*delimiter*__Login__*delimiter*__GoTo Flights__*delimiter*__reservation__*delimiter*__FindFlight__*delimiter*__Payment details"
 [StateManagement]
 LastReplayStatus=1
 [ActiveReplay]
@@ -67,6 +67,5 @@ Login=
 reservation=
 FindFlight=
 "Payment details"=
-"Book Another"=
 [ExtraFilesToParse]
 AsyncCallbacks.c=

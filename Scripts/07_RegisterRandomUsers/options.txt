@@ -2,8 +2,8 @@
 -DCCI
 -D_IDA_XL
 -DWINNT
--IE:\IBSLoadRunnerCourse\Scripts\RegisterRandomUsers
+-IE:\IBSLoadRunnerCourse\Scripts\07_RegisterRandomUsers
 -IE:\LoadRunner2020\include
--ee:\ibsloadrunnercourse\scripts\registerrandomusers\\logfile.log
-e:\ibsloadrunnercourse\scripts\registerrandomusers\\combined_RegisterRandomUsers.c
-e:\ibsloadrunnercourse\scripts\registerrandomusers\\pre_cci.c
+-ee:\ibsloadrunnercourse\scripts\07_registerrandomusers\\logfile.log
+e:\ibsloadrunnercourse\scripts\07_registerrandomusers\\combined_07_RegisterRandomUsers.c
+e:\ibsloadrunnercourse\scripts\07_registerrandomusers\\pre_cci.c

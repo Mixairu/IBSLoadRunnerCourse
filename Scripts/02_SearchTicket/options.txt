@@ -2,8 +2,8 @@
 -DCCI
 -D_IDA_XL
 -DWINNT
--IE:\IBSLoadRunnerCourse\Scripts\SearchTicket
+-IE:\IBSLoadRunnerCourse\Scripts\02_SearchTicket
 -IE:\LoadRunner2020\include
--ee:\ibsloadrunnercourse\scripts\searchticket\\logfile.log
-e:\ibsloadrunnercourse\scripts\searchticket\\combined_SearchTicket.c
-e:\ibsloadrunnercourse\scripts\searchticket\\pre_cci.c
+-ee:\ibsloadrunnercourse\scripts\02_searchticket\\logfile.log
+e:\ibsloadrunnercourse\scripts\02_searchticket\\combined_02_SearchTicket.c
+e:\ibsloadrunnercourse\scripts\02_searchticket\\pre_cci.c

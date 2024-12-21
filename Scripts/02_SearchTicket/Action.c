@@ -189,6 +189,13 @@ lr_save_string(randArriveCity, "randArriveCity");
 		"Name=.cgifields", "Value=seatPref", ENDITEM, 
 		LAST);
 
+	lr_end_transaction("FindFlight", LR_AUTO);
+	
+	lr_think_time(5);
+	
+	lr_start_transaction("ChooseTicket");
+
+	
 	
 	web_reg_find("Text=<title>Flight Reservation</title>",LAST);
 	web_reg_find("Text=firstName\" value=\"{firstName}\"", LAST);
@@ -211,7 +218,8 @@ lr_save_string(randArriveCity, "randArriveCity");
 		"Name=reserveFlights.y", "Value=12", ENDITEM,
 		LAST);
 	
-	lr_end_transaction("FindFlight", LR_AUTO);
+	lr_end_transaction("ChooseTicket", LR_AUTO);
+
 
 	lr_end_transaction("UC2_FindFlight", LR_AUTO);
 

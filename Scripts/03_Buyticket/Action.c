@@ -266,26 +266,26 @@ lr_save_string(randArriveCity, "randArriveCity");
 
 	lr_end_transaction("Payment details",LR_AUTO);
 
-	lr_think_time(5);
+//	lr_think_time(5);
 
-	lr_start_transaction("Book Another");
-	
-	web_reg_find("Text=<title>Flight Selections</title>",LAST);
-
-	web_submit_data("reservations.pl_4", 
-		"Action=http://localhost:1080/cgi-bin/reservations.pl", 
-		"Method=POST", 
-		"TargetFrame=", 
-		"RecContentType=text/html", 
-		"Referer=http://localhost:1080/cgi-bin/reservations.pl", 
-		"Snapshot=t80.inf", 
-		"Mode=HTML", 
-		ITEMDATA, 
-		"Name=Book Another.x", "Value=46", ENDITEM, 
-		"Name=Book Another.y", "Value=10", ENDITEM, 
-		LAST);
-
-	lr_end_transaction("Book Another",LR_AUTO);
+//	lr_start_transaction("Book Another");
+//	
+//	web_reg_find("Text=<title>Flight Selections</title>",LAST);
+//
+//	web_submit_data("reservations.pl_4", 
+//		"Action=http://localhost:1080/cgi-bin/reservations.pl", 
+//		"Method=POST", 
+//		"TargetFrame=", 
+//		"RecContentType=text/html", 
+//		"Referer=http://localhost:1080/cgi-bin/reservations.pl", 
+//		"Snapshot=t80.inf", 
+//		"Mode=HTML", 
+//		ITEMDATA, 
+//		"Name=Book Another.x", "Value=46", ENDITEM, 
+//		"Name=Book Another.y", "Value=10", ENDITEM, 
+//		LAST);
+//
+//	lr_end_transaction("Book Another",LR_AUTO);
 	
 	lr_end_transaction("UC3_BuyTicket", LR_AUTO);
 

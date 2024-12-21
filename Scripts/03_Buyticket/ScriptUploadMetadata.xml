@@ -14,6 +14,13 @@
     <FileEntry Name="03_Buyticket.prm" Filter="2" />
     <FileEntry Name="AsyncCallbacks.c" Filter="2" />
     <FileEntry Name="globals.h" Filter="2" />
+    <FileEntry Name="combined_03_Buyticket.c" Filter="2" />
+    <FileEntry Name="pre_cci.c" Filter="2" />
+    <FileEntry Name="03_Buyticket.c.pickle" Filter="1" />
+    <FileEntry Name="03_Buyticket.ci" Filter="1" />
+    <FileEntry Name="03_Buyticket.prm.bak" Filter="1" />
+    <FileEntry Name="114857723440.idx" Filter="1" />
+    <FileEntry Name="191221299440.idx" Filter="1" />
     <FileEntry Name="Bookmarks.xml" Filter="1" />
     <FileEntry Name="Breakpoints.xml" Filter="1" />
     <FileEntry Name="Buyticket.prm.bak" Filter="1" />

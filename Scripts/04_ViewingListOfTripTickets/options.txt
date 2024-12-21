@@ -2,8 +2,8 @@
 -DCCI
 -D_IDA_XL
 -DWINNT
--IE:\IBSLoadRunnerCourse\Scripts\ViewingListOfTripTickets
+-IE:\IBSLoadRunnerCourse\Scripts\04_ViewingListOfTripTickets
 -IE:\LoadRunner2020\include
--ee:\ibsloadrunnercourse\scripts\viewinglistoftriptickets\\logfile.log
-e:\ibsloadrunnercourse\scripts\viewinglistoftriptickets\\combined_ViewingListOfTripTickets.c
-e:\ibsloadrunnercourse\scripts\viewinglistoftriptickets\\pre_cci.c
+-ee:\ibsloadrunnercourse\scripts\04_viewinglistoftriptickets\\logfile.log
+e:\ibsloadrunnercourse\scripts\04_viewinglistoftriptickets\\combined_04_ViewingListOfTripTickets.c
+e:\ibsloadrunnercourse\scripts\04_viewinglistoftriptickets\\pre_cci.c

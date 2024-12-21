@@ -52,7 +52,7 @@ vuser_init=cci
 Action=cci
 vuser_end=cci
 [TransactionsOrder]
-Order="UC2_FindFlight__*delimiter*__GoTo WebTours__*delimiter*__LogIn__*delimiter*__GoTo Fligths__*delimiter*__FindFlight"
+Order="UC2_FindFlight__*delimiter*__GoTo WebTours__*delimiter*__LogIn__*delimiter*__GoTo Fligths__*delimiter*__FindFlight__*delimiter*__ChooseTicket"
 [StateManagement]
 LastReplayStatus=1
 [ActiveReplay]
@@ -64,3 +64,4 @@ UC2_FindFlight=
 LogIn=
 "GoTo Fligths"=
 FindFlight=
+ChooseTicket=

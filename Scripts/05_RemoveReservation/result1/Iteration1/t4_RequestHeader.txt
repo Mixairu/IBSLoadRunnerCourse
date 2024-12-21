@@ -1,0 +1,11 @@
+GET /cgi-bin/welcome.pl?page=itinerary HTTP/1.1
+Referer: http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home
+Upgrade-Insecure-Requests: 1
+Priority: u=4
+User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: Keep-Alive
+Host: localhost:1080
+Cookie: MSO=SID&1734796134; MTUserInfo=firstName&Vito&address2&Little%20Italy&username&vitoGambino&hash&47&lastName&Gambino%0A&address1&Sicily%20Avenue&creditCard&&expDate&%0A
+

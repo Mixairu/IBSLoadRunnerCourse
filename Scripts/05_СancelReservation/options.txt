@@ -1,9 +1,0 @@
--+
--DCCI
--D_IDA_XL
--DWINNT
--IE:\IBSLoadRunnerCourse\Scripts\cancelReservation
--IE:\LoadRunner2020\include
--ee:\ibsloadrunnercourse\scripts\cancelreservation\\logfile.log
-e:\ibsloadrunnercourse\scripts\cancelreservation\\combined_æancelReservation.c
-e:\ibsloadrunnercourse\scripts\cancelreservation\\pre_cci.c

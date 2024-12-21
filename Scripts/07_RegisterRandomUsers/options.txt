@@ -2,8 +2,8 @@
 -DCCI
 -D_IDA_XL
 -DWINNT
--IE:\IBSLoadRunnerCourse\Scripts\07_RegisterRandomUsers
--IE:\LoadRunner2020\include
--ee:\ibsloadrunnercourse\scripts\07_registerrandomusers\\logfile.log
-e:\ibsloadrunnercourse\scripts\07_registerrandomusers\\combined_07_RegisterRandomUsers.c
-e:\ibsloadrunnercourse\scripts\07_registerrandomusers\\pre_cci.c
+-IC:\Users\Mika.DESKTOP-Q6GSOJE\Desktop\IBSLoadRunnerCourse\IBSLoadRunnerCourse\Scripts\07_RegisterRandomUsers
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\mika.desktop-q6gsoje\desktop\ibsloadrunnercourse\ibsloadrunnercourse\scripts\07_registerrandomusers\\logfile.log
+c:\users\mika.desktop-q6gsoje\desktop\ibsloadrunnercourse\ibsloadrunnercourse\scripts\07_registerrandomusers\\combined_07_RegisterRandomUsers.c
+c:\users\mika.desktop-q6gsoje\desktop\ibsloadrunnercourse\ibsloadrunnercourse\scripts\07_registerrandomusers\\pre_cci.c

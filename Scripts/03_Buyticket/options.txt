@@ -2,8 +2,8 @@
 -DCCI
 -D_IDA_XL
 -DWINNT
--IE:\IBSLoadRunnerCourse\Scripts\03_Buyticket
--IE:\LoadRunner2020\include
--ee:\ibsloadrunnercourse\scripts\03_buyticket\\logfile.log
-e:\ibsloadrunnercourse\scripts\03_buyticket\\combined_03_Buyticket.c
-e:\ibsloadrunnercourse\scripts\03_buyticket\\pre_cci.c
+-IC:\Users\Mika.DESKTOP-Q6GSOJE\Desktop\IBSLoadRunnerCourse\IBSLoadRunnerCourse\Scripts\03_Buyticket
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\mika.desktop-q6gsoje\desktop\ibsloadrunnercourse\ibsloadrunnercourse\scripts\03_buyticket\\logfile.log
+c:\users\mika.desktop-q6gsoje\desktop\ibsloadrunnercourse\ibsloadrunnercourse\scripts\03_buyticket\\combined_03_Buyticket.c
+c:\users\mika.desktop-q6gsoje\desktop\ibsloadrunnercourse\ibsloadrunnercourse\scripts\03_buyticket\\pre_cci.c

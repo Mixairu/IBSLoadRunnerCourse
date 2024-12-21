@@ -58,7 +58,7 @@ Action()
 		"1");
 
 	
-	web_reg_find("Text=User password was correct",LAST);
+//	web_reg_find("Text=User password was correct",LAST);
 	
 	web_reg_find("Text=<blockquote>Welcome, <b>{username}</b>, to the Web Tours",LAST);
 

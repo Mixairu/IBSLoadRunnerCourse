@@ -2,8 +2,8 @@
 -DCCI
 -D_IDA_XL
 -DWINNT
--IE:\IBSLoadRunnerCourse\Scripts\RegisterUser
--IE:\LoadRunner2020\include
--ee:\ibsloadrunnercourse\scripts\registeruser\\logfile.log
-e:\ibsloadrunnercourse\scripts\registeruser\\combined_RegisterUser.c
-e:\ibsloadrunnercourse\scripts\registeruser\\pre_cci.c
+-IC:\Users\Mika.DESKTOP-Q6GSOJE\Desktop\IBSLoadRunnerCourse\IBSLoadRunnerCourse\Scripts\06_RegisterUser
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\mika.desktop-q6gsoje\desktop\ibsloadrunnercourse\ibsloadrunnercourse\scripts\06_registeruser\\logfile.log
+c:\users\mika.desktop-q6gsoje\desktop\ibsloadrunnercourse\ibsloadrunnercourse\scripts\06_registeruser\\combined_06_RegisterUser.c
+c:\users\mika.desktop-q6gsoje\desktop\ibsloadrunnercourse\ibsloadrunnercourse\scripts\06_registeruser\\pre_cci.c

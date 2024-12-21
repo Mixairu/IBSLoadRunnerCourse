@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\Mika.DESKTOP-Q6GSOJE\Desktop\IBSLoadRunnerCourse\IBSLoadRunnerCourse\Scripts\05_RemoveReservation
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\mika.desktop-q6gsoje\desktop\ibsloadrunnercourse\ibsloadrunnercourse\scripts\05_removereservation\\logfile.log
+c:\users\mika.desktop-q6gsoje\desktop\ibsloadrunnercourse\ibsloadrunnercourse\scripts\05_removereservation\\combined_05_RemoveReservation.c
+c:\users\mika.desktop-q6gsoje\desktop\ibsloadrunnercourse\ibsloadrunnercourse\scripts\05_removereservation\\pre_cci.c

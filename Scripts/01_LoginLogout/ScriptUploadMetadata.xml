@@ -14,7 +14,13 @@
     <FileEntry Name="01_LoginLogout.prm" Filter="2" />
     <FileEntry Name="AsyncCallbacks.c" Filter="2" />
     <FileEntry Name="globals.h" Filter="2" />
+    <FileEntry Name="combined_01_LoginLogout.c" Filter="2" />
     <FileEntry Name="combined_LoginLogout.c" Filter="2" />
+    <FileEntry Name="pre_cci.c" Filter="2" />
+    <FileEntry Name="01_LoginLogout.c.pickle" Filter="1" />
+    <FileEntry Name="01_LoginLogout.ci" Filter="1" />
+    <FileEntry Name="01_LoginLogout.prm.bak" Filter="1" />
+    <FileEntry Name="74360266440.idx" Filter="1" />
     <FileEntry Name="Bookmarks.xml" Filter="1" />
     <FileEntry Name="Breakpoints.xml" Filter="1" />
     <FileEntry Name="CompilerLogMetadata.xml" Filter="1" />

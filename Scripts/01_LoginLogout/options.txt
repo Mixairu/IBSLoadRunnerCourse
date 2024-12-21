@@ -2,8 +2,8 @@
 -DCCI
 -D_IDA_XL
 -DWINNT
--IE:\IBSLoadRunnerCourse\Scripts\LoginLogout
--IE:\LoadRunner2020\include
--ee:\ibsloadrunnercourse\scripts\loginlogout\\logfile.log
-e:\ibsloadrunnercourse\scripts\loginlogout\\combined_01_LoginLogout.c
-e:\ibsloadrunnercourse\scripts\loginlogout\\pre_cci.c
+-IC:\Users\Mika.DESKTOP-Q6GSOJE\Desktop\IBSLoadRunnerCourse\IBSLoadRunnerCourse\Scripts\01_LoginLogout
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\mika.desktop-q6gsoje\desktop\ibsloadrunnercourse\ibsloadrunnercourse\scripts\01_loginlogout\\logfile.log
+c:\users\mika.desktop-q6gsoje\desktop\ibsloadrunnercourse\ibsloadrunnercourse\scripts\01_loginlogout\\combined_01_LoginLogout.c
+c:\users\mika.desktop-q6gsoje\desktop\ibsloadrunnercourse\ibsloadrunnercourse\scripts\01_loginlogout\\pre_cci.c

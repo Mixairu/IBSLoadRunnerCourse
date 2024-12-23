@@ -2720,7 +2720,7 @@ Action()
 		"1");
 
 	
-	web_reg_find("Text=<title>Welcome to Web Tours</title>","LAST");
+ 
 	
 	web_reg_find("Text=Thank you, <b>{username}</b>, for registering","LAST");
 	
@@ -2750,7 +2750,7 @@ Action()
 	
 	lr_think_time(5);
 
-	lr_start_transaction("beck to main");
+	lr_start_transaction("click continue");
 
 	web_add_auto_header("Priority", 
 		"u=4");
@@ -2773,25 +2773,25 @@ Action()
 		"Mode=HTML", 
 		"LAST");
 
-	lr_end_transaction("beck to main",2);
+	lr_end_transaction("click continue",2);
 
-	lr_think_time(5);
-
-	lr_start_transaction("logout");
-	
-	web_reg_find("Text=A Session ID has been created","LAST");
-
-	web_url("SignOff Button", 
-		"URL=http://localhost:1080/cgi-bin/welcome.pl?signOff=1", 
-		"TargetFrame=body", 
-		"Resource=0", 
-		"RecContentType=text/html", 
-		"Referer=http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home", 
-		"Snapshot=t47.inf", 
-		"Mode=HTML", 
-		"LAST");
-
-	lr_end_transaction("logout",2);
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 	
 	lr_end_transaction("UC7_RegisterRandomUser", 2);
 

@@ -1,4 +1,4 @@
-Virtual User Script started at: 21.12.2024 19:40:00
+Virtual User Script started at: 21.12.2024 19:48:54
 Starting action vuser_init.
 Web Turbo Replay of LoadRunner 2020.0.0 for Windows 10; build 793 (ноя 27 2019 19:51:20)  	[MsgId: MMSG-26983]
 Run mode: HTML  	[MsgId: MMSG-26993]
@@ -30,8 +30,8 @@ Action.c(35): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?in=hom
 Action.c(35): Detected non-resource "http://localhost:1080/WebTours/home.html" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
 Action.c(35): Found resource "http://localhost:1080/WebTours/images/mer_login.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
 Action.c(35): Registered web_reg_find successful for "Text=A Session ID has been created" (count=1)  	[MsgId: MMSG-26364]
-Action.c(35): web_url("WebTours") was successful, 10080 body bytes, 2373 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(46): Notify: Transaction "GoTo WebTours" ended with a "Pass" status (Duration: 0,2479 Wasted Time: 0,0688).
+Action.c(35): web_url("WebTours") was successful, 10074 body bytes, 2373 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(46): Notify: Transaction "GoTo WebTours" ended with a "Pass" status (Duration: 0,2475 Wasted Time: 0,0643).
 Action.c(50): Notify: Transaction "login" started.
 Action.c(52): web_add_header("Origin") started  	[MsgId: MMSG-26355]
 Action.c(52): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
@@ -53,7 +53,7 @@ Action.c(65): Found resource "http://localhost:1080/WebTours/images/signoff.gif"
 Action.c(65): Registered web_reg_find successful for "Text=User password was correct" (count=1)  	[MsgId: MMSG-26364]
 Action.c(65): Registered web_reg_find successful for "Text=<blockquote>Welcome, <b>vitoGambino</b>, to the Web Tours" (count=1)  	[MsgId: MMSG-26364]
 Action.c(65): web_submit_data("login.pl") was successful, 5786 body bytes, 2072 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(82): Notify: Transaction "login" ended with a "Pass" status (Duration: 0,2025 Wasted Time: 0,0055).
+Action.c(82): Notify: Transaction "login" ended with a "Pass" status (Duration: 0,2335 Wasted Time: 0,0054).
 Action.c(86): Notify: Transaction "GoTo Itnerary" started.
 Action.c(88): web_add_auto_header("Priority") started  	[MsgId: MMSG-26355]
 Action.c(88): web_add_auto_header("Priority") was successful  	[MsgId: MMSG-26392]
@@ -70,16 +70,16 @@ Action.c(113): Registering web_reg_save_param was successful  	[MsgId: MMSG-2639
 Action.c(120): web_url("welcome.pl") started  	[MsgId: MMSG-26355]
 Action.c(120): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=itinerary" in "http://localhost:1080/cgi-bin/welcome.pl?page=itinerary"  	[MsgId: MMSG-26574]
 Action.c(120): Detected non-resource "http://localhost:1080/cgi-bin/itinerary.pl" in "http://localhost:1080/cgi-bin/welcome.pl?page=itinerary"  	[MsgId: MMSG-26574]
-Action.c(120): Found resource "http://localhost:1080/WebTours/images/cancelreservation.gif" in HTML "http://localhost:1080/cgi-bin/itinerary.pl"  	[MsgId: MMSG-26659]
-Action.c(120): Found resource "http://localhost:1080/WebTours/images/cancelallreservations.gif" in HTML "http://localhost:1080/cgi-bin/itinerary.pl"  	[MsgId: MMSG-26659]
 Action.c(120): Resource "http://localhost:1080/WebTours/images/flights.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 Action.c(120): Found resource "http://localhost:1080/WebTours/images/in_itinerary.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=itinerary"  	[MsgId: MMSG-26659]
 Action.c(120): Found resource "http://localhost:1080/WebTours/images/home.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=itinerary"  	[MsgId: MMSG-26659]
 Action.c(120): Resource "http://localhost:1080/WebTours/images/signoff.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(120): Found resource "http://localhost:1080/WebTours/images/cancelreservation.gif" in HTML "http://localhost:1080/cgi-bin/itinerary.pl"  	[MsgId: MMSG-26659]
+Action.c(120): Found resource "http://localhost:1080/WebTours/images/cancelallreservations.gif" in HTML "http://localhost:1080/cgi-bin/itinerary.pl"  	[MsgId: MMSG-26659]
 Action.c(120): Registered web_reg_find successful for "Text=User wants the intineraries" (count=1)  	[MsgId: MMSG-26364]
 Action.c(120): Registered web_reg_find successful for "Text=<B>Vito Gambino" (count=1)  	[MsgId: MMSG-26364]
-Action.c(120): web_url("welcome.pl") was successful, 8855 body bytes, 1915 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(130): Notify: Transaction "GoTo Itnerary" ended with a "Pass" status (Duration: 0,2340 Wasted Time: 0,0058).
+Action.c(120): web_url("welcome.pl") was successful, 7710 body bytes, 1915 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(130): Notify: Transaction "GoTo Itnerary" ended with a "Pass" status (Duration: 0,2464 Wasted Time: 0,0062).
 Action.c(176): Notify: Transaction "DelReservation" started.
 Action.c(178): web_add_header("Origin") started  	[MsgId: MMSG-26355]
 Action.c(178): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
@@ -93,10 +93,10 @@ Action.c(217): web_reg_find started  	[MsgId: MMSG-26355]
 Action.c(217): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
 Action.c(221): web_custom_request("itinerary.pl_2") started  	[MsgId: MMSG-26355]
 Action.c(221): Registered web_reg_find successful for "Text=<title>Flights List</title>" (count=1)  	[MsgId: MMSG-26364]
-Action.c(221): Registered web_reg_find successful for "Text=86452236-1568-VG"  	[MsgId: MMSG-26362]
-Action.c(221): web_custom_request("itinerary.pl_2") was successful, 2643 body bytes, 255 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(234): Notify: Transaction "DelReservation" ended with a "Pass" status (Duration: 0,1864 Wasted Time: 0,0042).
-Action.c(236): Notify: Transaction "UC5_CanselRegistration" ended with a "Pass" status (Duration: 1,1963 Wasted Time: 0,0844).
+Action.c(221): Registered web_reg_find successful for "Text=86467429-814-VG"  	[MsgId: MMSG-26362]
+Action.c(221): web_custom_request("itinerary.pl_2") was successful, 887 body bytes, 255 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(234): Notify: Transaction "DelReservation" ended with a "Pass" status (Duration: 0,2016 Wasted Time: 0,0076).
+Action.c(236): Notify: Transaction "UC5_CanselRegistration" ended with a "Pass" status (Duration: 1,1919 Wasted Time: 0,0835).
 Ending action Action.
 Ending iteration 1.
 Ending Vuser...

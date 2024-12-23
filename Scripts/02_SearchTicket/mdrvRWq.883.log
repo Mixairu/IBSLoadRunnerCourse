@@ -1,0 +1,118 @@
+Action.c(231):     me=".cgifields" value="5"  /></div></form>\n
+Action.c(231):     \n
+Action.c(231):     </center>\n
+Action.c(231):     \n
+Action.c(231):     </body>\n
+Action.c(231):     </html>
+Action.c(231): Found resource "http://localhost:1080/WebTours/images/cancelreservation.gif" in HTML "http://localhost:1080/cgi-bin/itinerary.pl"  	[MsgId: MMSG-26659]
+Action.c(231): Found resource "http://localhost:1080/WebTours/images/cancelallreservations.gif" in HTML "http://localhost:1080/cgi-bin/itinerary.pl"  	[MsgId: MMSG-26659]
+Action.c(231): t=1317960ms: Request done "http://localhost:1080/cgi-bin/itinerary.pl"  	[MsgId: MMSG-26000]
+Action.c(231): t=1317960ms: Already connected [1] to localhost:1080  	[MsgId: MMSG-26000]
+Action.c(231): t=1317960ms: 584-byte request headers for "http://localhost:1080/WebTours/images/cancelreservation.gif" (RelFrameId=, Internal ID=544)
+Action.c(231):     GET /WebTours/images/cancelreservation.gif HTTP/1.1\r\n
+Action.c(231):     Referer: http://localhost:1080/cgi-bin/itinerary.pl\r\n
+Action.c(231):     Priority: u=4\r\n
+Action.c(231):     Origin: http://localhost:1080\r\n
+Action.c(231):     Upgrade-Insecure-Requests: 1\r\n
+Action.c(231):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:132.0) Gecko/20100101 Firefox/132
+Action.c(231):     .0\r\n
+Action.c(231):     Accept-Encoding: gzip, deflate\r\n
+Action.c(231):     Accept-Language: en-US,en;q=0.5\r\n
+Action.c(231):     Accept: */*\r\n
+Action.c(231):     Connection: Keep-Alive\r\n
+Action.c(231):     Host: localhost:1080\r\n
+Action.c(231):     Cookie: MSO=SID&1734976054; MTUserInfo=firstName&Angelo&address2&Los%20Angeles&username&an
+Action.c(231):     geloBlackmai&hash&73&lastName&Blackmail%0A&address1&Snake%20Street&creditCard&&expDate&%0A
+Action.c(231):     \r\n
+Action.c(231):     \r\n
+Action.c(231): t=1317961ms: Connecting [3] to host 127.0.0.1:1080  	[MsgId: MMSG-26000]
+Action.c(231): t=1317962ms: 297-byte response headers for "http://localhost:1080/WebTours/images/in_itinerary.gif" (RelFrameId=, Internal ID=543)
+Action.c(231):     HTTP/1.1 200 OK\r\n
+Action.c(231):     Date: Mon, 23 Dec 2024 17:47:59 GMT\r\n
+Action.c(231):     Server: Apache/2.2.21 (Win32)\r\n
+Action.c(231):     Last-Modified: Wed, 04 Dec 2024 18:02:12 GMT\r\n
+Action.c(231):     ETag: "6000000068dd4-2dd-6287594c1cf74"\r\n
+Action.c(231):     Accept-Ranges: bytes\r\n
+Action.c(231):     Content-Length: 733\r\n
+Action.c(231):     Keep-Alive: timeout=5, max=97\r\n
+Action.c(231):     Connection: Keep-Alive\r\n
+Action.c(231):     Content-Type: image/gif\r\n
+Action.c(231):     \r\n
+Action.c(231): t=1317962ms: 733-byte response body for "http://localhost:1080/WebTours/images/in_itinerary.gif" (RelFrameId=, Internal ID=543)
+Action.c(231): t=1317962ms: Request done "http://localhost:1080/WebTours/images/in_itinerary.gif"  	[MsgId: MMSG-26000]
+Action.c(231): t=1317963ms: Connected socket [3] from 127.0.0.1:25948 to 127.0.0.1:1080 in 2 ms  	[MsgId: MMSG-26000]
+Action.c(231): t=1317963ms: 588-byte request headers for "http://localhost:1080/WebTours/images/cancelallreservations.gif" (RelFrameId=, Internal ID=545)
+Action.c(231):     GET /WebTours/images/cancelallreservations.gif HTTP/1.1\r\n
+Action.c(231):     Referer: http://localhost:1080/cgi-bin/itinerary.pl\r\n
+Action.c(231):     Priority: u=4\r\n
+Action.c(231):     Origin: http://localhost:1080\r\n
+Action.c(231):     Upgrade-Insecure-Requests: 1\r\n
+Action.c(231):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:132.0) Gecko/20100101 Firefox/132
+Action.c(231):     .0\r\n
+Action.c(231):     Accept-Encoding: gzip, deflate\r\n
+Action.c(231):     Accept-Language: en-US,en;q=0.5\r\n
+Action.c(231):     Accept: */*\r\n
+Action.c(231):     Connection: Keep-Alive\r\n
+Action.c(231):     Host: localhost:1080\r\n
+Action.c(231):     Cookie: MSO=SID&1734976054; MTUserInfo=firstName&Angelo&address2&Los%20Angeles&username&an
+Action.c(231):     geloBlackmai&hash&73&lastName&Blackmail%0A&address1&Snake%20Street&creditCard&&expDate&%0A
+Action.c(231):     \r\n
+Action.c(231):     \r\n
+Action.c(231): t=1317964ms: 298-byte response headers for "http://localhost:1080/WebTours/images/cancelallreservations.gif" (RelFrameId=, Internal ID=545)
+Action.c(231):     HTTP/1.1 200 OK\r\n
+Action.c(231):     Date: Mon, 23 Dec 2024 17:47:59 GMT\r\n
+Action.c(231):     Server: Apache/2.2.21 (Win32)\r\n
+Action.c(231):     Last-Modified: Wed, 04 Dec 2024 18:02:12 GMT\r\n
+Action.c(231):     ETag: "4000000068dc3-2e6-6287594bf2c0c"\r\n
+Action.c(231):     Accept-Ranges: bytes\r\n
+Action.c(231):     Content-Length: 742\r\n
+Action.c(231):     Keep-Alive: timeout=5, max=100\r\n
+Action.c(231):     Connection: Keep-Alive\r\n
+Action.c(231):     Content-Type: image/gif\r\n
+Action.c(231):     \r\n
+Action.c(231): t=1317965ms: 742-byte response body for "http://localhost:1080/WebTours/images/cancelallreservations.gif" (RelFrameId=, Internal ID=545)
+Action.c(231): t=1317965ms: Request done "http://localhost:1080/WebTours/images/cancelallreservations.gif"  	[MsgId: MMSG-26000]
+Action.c(231): t=1317966ms: 298-byte response headers for "http://localhost:1080/WebTours/images/cancelreservation.gif" (RelFrameId=, Internal ID=544)
+Action.c(231):     HTTP/1.1 200 OK\r\n
+Action.c(231):     Date: Mon, 23 Dec 2024 17:47:59 GMT\r\n
+Action.c(231):     Server: Apache/2.2.21 (Win32)\r\n
+Action.c(231):     Last-Modified: Wed, 04 Dec 2024 18:02:12 GMT\r\n
+Action.c(231):     ETag: "1d000000068dc6-33f-6287594bf7149"\r\n
+Action.c(231):     Accept-Ranges: bytes\r\n
+Action.c(231):     Content-Length: 831\r\n
+Action.c(231):     Keep-Alive: timeout=5, max=99\r\n
+Action.c(231):     Connection: Keep-Alive\r\n
+Action.c(231):     Content-Type: image/gif\r\n
+Action.c(231):     \r\n
+Action.c(231): t=1317966ms: 831-byte response body for "http://localhost:1080/WebTours/images/cancelreservation.gif" (RelFrameId=, Internal ID=544)
+Action.c(231): t=1317967ms: Request done "http://localhost:1080/WebTours/images/cancelreservation.gif"  	[MsgId: MMSG-26000]
+Action.c(231): Registered web_reg_find successful for "Text=User wants the intineraries" (count=1)  	[MsgId: MMSG-26364]
+Action.c(231): Registered web_reg_find successful for "Text=<B>Angelo Blackmail" (count=1)  	[MsgId: MMSG-26364]
+Action.c(231): web_url("welcome.pl") was successful, 30372 body bytes, 1620 header bytes, 83 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(241): Notify: Transaction "GoTo Itnerary" ended with a "Pass" status (Duration: 0,1272 Wasted Time: 0,0002).	[MsgId: MMSG-16871]
+Action.c(245): Notify: Transaction "UC2_FindFlight" ended with a "Pass" status (Duration: 25,5979 Think Time: 25,0453 Wasted Time: 0,0023).	[MsgId: MMSG-16870]
+Ending action Action.	[MsgId: MMSG-15918]
+Ending iteration 20.	[MsgId: MMSG-15965]
+Waiting 42,4010 seconds for iteration pacing.	[MsgId: MMSG-15996]
+Action was aborted.	[MsgId: MMSG-10694]
+Ending Vuser...	[MsgId: MMSG-15966]
+Starting action vuser_end.	[MsgId: MMSG-15919]
+Ending action vuser_end.	[MsgId: MMSG-15918]
+Vuser Terminated.	[MsgId: MMSG-15963]
+Action.c(168): t=1319923ms: Closed connection [0] to localhost:1080 after completing 4 request(s)  	[MsgId: MMSG-26000]
+Action.c(168): t=1319923ms: Closed connection [1] to localhost:1080 after completing 1 request(s)  	[MsgId: MMSG-26000]
+Action.c(168): t=1319923ms: Closed connection [3] to localhost:1080 after completing 2 request(s)  	[MsgId: MMSG-26000]
+Action.c(168): t=1319923ms: Closed connection [4] to localhost:1080 after completing 1 request(s)  	[MsgId: MMSG-26000]
+Action was aborted.	[MsgId: MMSG-10694]
+Ending Vuser...	[MsgId: MMSG-15966]
+Starting action vuser_end.	[MsgId: MMSG-15919]
+Ending action vuser_end.	[MsgId: MMSG-15918]
+HTML-Mode memory management statistics: Reusable=7, NonReusable=0, CsMemBlockSize=4096, checks disabled  	[MsgId: MMSG-26000]
+Vuser Terminated.	[MsgId: MMSG-15963]
+Action.c(168): t=1319926ms: Closed connection [0] to localhost:1080 after completing 4 request(s)  	[MsgId: MMSG-26000]
+Action.c(168): t=1319926ms: Closed connection [1] to localhost:1080 after completing 2 request(s)  	[MsgId: MMSG-26000]
+Action.c(168): t=1319927ms: Closed connection [2] to localhost:1080 after completing 1 request(s)  	[MsgId: MMSG-26000]
+Action.c(168): t=1319927ms: Closed connection [3] to localhost:1080 after completing 1 request(s)  	[MsgId: MMSG-26000]
+Vuser 1 (thread 19680), ended OK."	[MsgId: MMSG-10695]
+HTML-Mode memory management statistics: Reusable=7, NonReusable=0, CsMemBlockSize=4096, checks disabled  	[MsgId: MMSG-26000]
+Vuser 0 (thread 20120), ended OK."	[MsgId: MMSG-10695]

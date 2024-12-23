@@ -1,0 +1,4 @@
+Vuser Terminated.	[MsgId: MMSG-15963]
+Action.c(161): t=1319783ms: Closed connection [0] to localhost:1080 after completing 1 request(s)  	[MsgId: MMSG-26000]
+HTML-Mode memory management statistics: Reusable=5, NonReusable=0, CsMemBlockSize=4096, checks disabled  	[MsgId: MMSG-26000]
+Vuser 1 (thread 3720), ended OK."	[MsgId: MMSG-10695]

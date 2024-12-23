@@ -52,7 +52,7 @@ vuser_init=cci
 Action=cci
 vuser_end=cci
 [TransactionsOrder]
-Order="UC5_CanselRegistration__*delimiter*__GoTo WebTours__*delimiter*__login__*delimiter*__GoTo Itnerary__*delimiter*__DelReservation"
+Order="UC5_CanselRegistration__*delimiter*__GoTo WebTours__*delimiter*__login__*delimiter*__GoTo Itnerary__*delimiter*__DelReservation__*delimiter*__logout"
 [StateManagement]
 LastReplayStatus=1
 [ActiveReplay]
@@ -64,3 +64,4 @@ UC5_CanselRegistration=
 login=
 "GoTo Itnerary"=
 DelReservation=
+logout=

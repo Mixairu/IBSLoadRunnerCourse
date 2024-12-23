@@ -185,7 +185,7 @@ lr_save_string(randArriveCity, "randArriveCity");
 	
 	lr_end_transaction("FindFlight", LR_AUTO);
 	
-	lr_think_time(5);
+	lr_think_time(4);
 	
 	lr_start_transaction("ChooseTicket");
 	
@@ -212,7 +212,7 @@ lr_save_string(randArriveCity, "randArriveCity");
 
 	lr_end_transaction("ChooseTicket", LR_AUTO);
 
-	lr_think_time(5);
+	lr_think_time(3);
 
 	lr_start_transaction("Payment details");
 
@@ -286,6 +286,26 @@ lr_save_string(randArriveCity, "randArriveCity");
 //		LAST);
 //
 //	lr_end_transaction("Book Another",LR_AUTO);
+	
+	lr_think_time(3);
+	
+	lr_start_transaction("logout");
+	
+	web_reg_find("Text=A Session ID has been created",LAST);
+	
+	web_url("SignOff Button", 
+		"URL=http://localhost:1080/cgi-bin/welcome.pl?signOff=1", 
+		"TargetFrame=body", 
+		"Resource=0", 
+		"RecContentType=text/html", 
+		"Referer=http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights", 
+		"Snapshot=t175.inf", 
+		"Mode=HTML", 
+		LAST);
+
+	
+	lr_end_transaction("logout", LR_AUTO);
+
 	
 	lr_end_transaction("UC3_BuyTicket", LR_AUTO);
 

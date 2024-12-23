@@ -1,4 +1,4 @@
 "firstName=Vito&lastName=Gambino&address1=Sicily+Avenue&address2=Pcity%7D&pass1=%7BVito+Gambino"
-"%7D&creditCard=3567+8290+1122+2334&expDate=05%2F25&oldCCOption=&numPassengers=2&seatType=Busin"
-"ess&seatPref=Aisle&outboundFlight=480%3B2071%3B01%2F12%2F2024&advanceDiscount=0&returnFlight=&"
-"JSFormSubmit=off&buyFlights.x=34&buyFlights.y=7&.cgifields=saveCC"
+"%7D&creditCard=3567+8290+1122+2334&expDate=05%2F25&oldCCOption=&numPassengers=1&seatType=Busin"
+"ess&seatPref=None&outboundFlight=240%3B157%3B01%2F01%2F2024&advanceDiscount=0&returnFlight=&JS"
+"FormSubmit=off&buyFlights.x=34&buyFlights.y=7&.cgifields=saveCC"

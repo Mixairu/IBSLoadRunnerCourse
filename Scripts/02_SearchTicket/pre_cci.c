@@ -2651,7 +2651,7 @@ Action()
 
 	lr_think_time(5);
 
-	lr_start_transaction("LogIn");
+	lr_start_transaction("Login");
 
 	web_add_header("Origin", 
 		"http://localhost:1080");
@@ -2685,7 +2685,7 @@ Action()
 		"LAST");
 
 
-	lr_end_transaction("LogIn",2);
+	lr_end_transaction("Login",2);
 	
 	lr_think_time(5);
 
@@ -2824,6 +2824,27 @@ lr_save_string(randArriveCity, "randArriveCity");
 		"LAST");
 	
 	lr_end_transaction("ChooseTicket", 2);
+	
+	lr_think_time(5);
+
+	lr_start_transaction("GoTo Itnerary");
+	
+	web_reg_find("Text=User wants the intineraries","LAST");
+	
+	web_reg_find("Text=<B>{firstName} {secondName}","LAST");
+	
+	web_url("welcome.pl", 
+		"URL=http://localhost:1080/cgi-bin/welcome.pl?page=itinerary", 
+		"TargetFrame=", 
+		"Resource=0", 
+		"RecContentType=text/html", 
+		"Referer=http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights", 
+		"Snapshot=t151.inf", 
+		"Mode=HTML", 
+		"LAST");
+	
+	lr_end_transaction("GoTo Itnerary", 2);
+
 
 
 	lr_end_transaction("UC2_FindFlight", 2);

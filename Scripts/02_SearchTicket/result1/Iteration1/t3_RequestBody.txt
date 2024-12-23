@@ -1,2 +1,2 @@
-"userSession=140526.315593358HcciDccpDfiDDDDDtDDzQpQDtVf&username=vitoGambino&password=DonVito0"
-"1%21&login.x=0&login.y=0&JSFormSubmit=off"
+"userSession=140540.237667072HccQADiptHftDDHtpcDAif&username=vitoGambino&password=DonVito01%21&"
+"login.x=0&login.y=0&JSFormSubmit=off"

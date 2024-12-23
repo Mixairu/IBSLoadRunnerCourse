@@ -19,6 +19,8 @@
     <FileEntry Name="05_RemoveReservation.ci" Filter="1" />
     <FileEntry Name="05_RemoveReservation.prm.bak" Filter="1" />
     <FileEntry Name="250434911440.idx" Filter="1" />
+    <FileEntry Name="25043491144_qcf.127.idx" Filter="1" />
+    <FileEntry Name="25043491144_uuS.167.idx" Filter="1" />
     <FileEntry Name="Bookmarks.xml" Filter="1" />
     <FileEntry Name="Breakpoints.xml" Filter="1" />
     <FileEntry Name="CompilerLogMetadata.xml" Filter="1" />
@@ -26,6 +28,7 @@
     <FileEntry Name="logfile.log" Filter="1" />
     <FileEntry Name="lrw_custom_body.h" Filter="1" />
     <FileEntry Name="mdrv.log" Filter="1" />
+    <FileEntry Name="mdrvw54.479.log" Filter="1" />
     <FileEntry Name="mdrv_cmd.txt" Filter="1" />
     <FileEntry Name="NewParam.dat" Filter="1" />
     <FileEntry Name="options.txt" Filter="1" />

@@ -10,6 +10,6 @@ Accept-Encoding: gzip, deflate
 Accept: */*
 Connection: Keep-Alive
 Host: localhost:1080
-Cookie: MSO=SID&1734796134; MTUserInfo=firstName&Vito&address2&Little%20Italy&username&vitoGambino&hash&47&lastName&Gambino%0A&address1&Sicily%20Avenue&creditCard&&expDate&%0A
-Content-Length: 79
+Cookie: MSO=SID&1734958665; MTUserInfo=firstName&Vito&address2&Little%20Italy&username&vitoGambino&hash&47&lastName&Gambino%0A&address1&Sicily%20Avenue&creditCard&&expDate&%0A
+Content-Length: 482
 

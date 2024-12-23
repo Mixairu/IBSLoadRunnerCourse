@@ -19,6 +19,16 @@
     <FileEntry Name="02_SearchTicket.ci" Filter="1" />
     <FileEntry Name="02_SearchTicket.prm.bak" Filter="1" />
     <FileEntry Name="179970668440.idx" Filter="1" />
+    <FileEntry Name="17997066844_1oN.309.idx" Filter="1" />
+    <FileEntry Name="17997066844_aFi.191.idx" Filter="1" />
+    <FileEntry Name="17997066844_boV.845.idx" Filter="1" />
+    <FileEntry Name="17997066844_ecf.925.idx" Filter="1" />
+    <FileEntry Name="17997066844_GrQ.339.idx" Filter="1" />
+    <FileEntry Name="17997066844_ISR.419.idx" Filter="1" />
+    <FileEntry Name="17997066844_Kap.359.idx" Filter="1" />
+    <FileEntry Name="17997066844_Sk2.731.idx" Filter="1" />
+    <FileEntry Name="17997066844_T8k.731.idx" Filter="1" />
+    <FileEntry Name="17997066844_yJT.515.idx" Filter="1" />
     <FileEntry Name="204666567440.idx" Filter="1" />
     <FileEntry Name="63830728440.idx" Filter="1" />
     <FileEntry Name="9567531440.idx" Filter="1" />
@@ -31,11 +41,14 @@
     <FileEntry Name="logfile.log" Filter="1" />
     <FileEntry Name="lrw_custom_body.h" Filter="1" />
     <FileEntry Name="mdrv.log" Filter="1" />
+    <FileEntry Name="mdrv1M6.209.log" Filter="1" />
     <FileEntry Name="mdrv3uz.861.log" Filter="1" />
     <FileEntry Name="mdrv3Vs.817.log" Filter="1" />
     <FileEntry Name="mdrv9Ot.629.log" Filter="1" />
+    <FileEntry Name="mdrvGIo.623.log" Filter="1" />
     <FileEntry Name="mdrvjWN.951.log" Filter="1" />
     <FileEntry Name="mdrvNkj.575.log" Filter="1" />
+    <FileEntry Name="mdrvnUh.971.log" Filter="1" />
     <FileEntry Name="mdrvQ6R.33.log" Filter="1" />
     <FileEntry Name="mdrvSdc.779.log" Filter="1" />
     <FileEntry Name="mdrvuSG.113.log" Filter="1" />
@@ -43,6 +56,7 @@
     <FileEntry Name="mdrvZMn.37.log" Filter="1" />
     <FileEntry Name="mdrvZq7.449.log" Filter="1" />
     <FileEntry Name="mdrv_cmd.txt" Filter="1" />
+    <FileEntry Name="NewParam(1).dat" Filter="1" />
     <FileEntry Name="NewParam.dat" Filter="1" />
     <FileEntry Name="options.txt" Filter="1" />
     <FileEntry Name="output.bak" Filter="1" />

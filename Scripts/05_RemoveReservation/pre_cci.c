@@ -2834,9 +2834,28 @@ Action()
 
 	lr_end_transaction("DelReservation",2);
 	
+	
+	lr_think_time(5);
+
+	lr_start_transaction("logout");
+	
+	web_reg_find("Text=A Session ID has been created","LAST");
+	
+	web_url("SignOff Button", 
+		"URL=http://localhost:1080/cgi-bin/welcome.pl?signOff=1", 
+		"TargetFrame=body", 
+		"Resource=0", 
+		"RecContentType=text/html", 
+		"Referer=http://localhost:1080/cgi-bin/nav.pl?page=menu&in=itinerary", 
+		"Snapshot=t132.inf", 
+		"Mode=HTML", 
+		"LAST");
+	
+	lr_end_transaction("logout", 2);
+	
 	lr_end_transaction("UC5_CanselRegistration", 2);
-
-
+	
+	
 	return 0;
 }
 # 5 "c:\\users\\mika.desktop-q6gsoje\\desktop\\ibsloadrunnercourse\\ibsloadrunnercourse\\scripts\\05_removereservation\\\\combined_05_RemoveReservation.c" 2

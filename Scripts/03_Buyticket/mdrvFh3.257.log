@@ -1,0 +1,106 @@
+Action.c(296):     Referer: http://localhost:1080/cgi-bin/welcome.pl?signOff=1\r\n
+Action.c(296):     Priority: u=4\r\n
+Action.c(296):     Upgrade-Insecure-Requests: 1\r\n
+Action.c(296):     Origin: http://localhost:1080\r\n
+Action.c(296):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:132.0) Gecko/20100101 Firefox/132
+Action.c(296):     .0\r\n
+Action.c(296):     Accept-Encoding: gzip, deflate\r\n
+Action.c(296):     Accept-Language: en-US,en;q=0.5\r\n
+Action.c(296):     Accept: */*\r\n
+Action.c(296):     Connection: Keep-Alive\r\n
+Action.c(296):     Host: localhost:1080\r\n
+Action.c(296):     Cookie: MSO=SID&1735025943\r\n
+Action.c(296):     \r\n
+Action.c(296): t=519155ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=558)
+Action.c(296):     0\r\n
+Action.c(296):     \r\n
+Action.c(296): t=519155ms: Request done "http://localhost:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26000]
+Action.c(296): t=519180ms: 255-byte response headers for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=559)
+Action.c(296):     HTTP/1.1 200 OK\r\n
+Action.c(296):     Date: Tue, 24 Dec 2024 07:39:03 GMT\r\n
+Action.c(296):     Server: Apache/2.2.21 (Win32)\r\n
+Action.c(296):     Expires: Mon, 23 Dec 2024 07:39:03 GMT\r\n
+Action.c(296):     Keep-Alive: timeout=5, max=99\r\n
+Action.c(296):     Connection: Keep-Alive\r\n
+Action.c(296):     Transfer-Encoding: chunked\r\n
+Action.c(296):     Content-Type: text/html; charset=ISO-8859-1\r\n
+Action.c(296):     \r\n
+Action.c(296): t=519180ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=559)
+Action.c(296):     5ce\r\n
+Action.c(296): t=519180ms: 2-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=559)
+Action.c(296):     \r\n
+Action.c(296): t=519181ms: 1486-byte chunked response body for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=559)
+Action.c(296):     <!DOCTYPE html\n
+Action.c(296):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+Action.c(296):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+Action.c(296):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+Action.c(296):     <head>\n
+Action.c(296):     <title>Web Tours Navigation Bar</title>\n
+Action.c(296):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+Action.c(296):     </head>\n
+Action.c(296):     <body bgcolor="#E0E7F1">\n
+Action.c(296):     <style>\n
+Action.c(296):     blockquote {font-family: tahoma; font-size : 10pt}\n
+Action.c(296):     H1 {font-family: tahoma; font-size : 22pt; color: #993333}\n
+Action.c(296):     H3 {font-family: tahoma; font-size : 10pt; color: black}\n
+Action.c(296):     small {font-family: tahoma; font-size : 8pt}\n
+Action.c(296):     </style>\n
+Action.c(296):     <form method="post" action="/cgi-bin/login.pl" target="body">\n
+Action.c(296):     <input type="hidden" name="userSession" value="140544.831348724HccQcHtpHzcftDDHfpztifHf"/>
+Action.c(296):     \n
+Action.c(296):     <table border="0"><tr><td>&nbsp;</td>\n
+Action.c(296):     <td>&nbsp;</td></tr>\n
+Action.c(296):     <tr><td>&nbsp;</td>\n
+Action.c(296):     <td>&nbsp;</td></tr>\n
+Action.c(296):     <tr><td>&nbsp;</td>\n
+Action.c(296):     <td><small>&nbsp;Username</small></td></tr>\n
+Action.c(296):     <tr><td>&nbsp;</td>\n
+Action.c(296):     <td><input type="text" name="username" value="" size="14" maxlength="14"/></td></tr>\n
+Action.c(296):     <tr><td>&nbsp;</td>\n
+Action.c(296):     <td><small>&nbsp;Password</small></td>\n
+Action.c(296):     <tr><td>&nbsp;</td>\n
+Action.c(296):     <td><input type="password" name="password" value="" size="14" maxlength="14"/></td></tr>\n
+Action.c(296):     <tr><td>&nbsp;</td>\n
+Action.c(296):     <td>&nbsp;</td></tr>\n
+Action.c(296):     <tr><td>&nbsp;</td>\n
+Action.c(296):     <td><input type="image" name="login" value="Login" alt="Login" border="1" \n
+Action.c(296):     src="/WebTours/images/mer_login.gif"/></td></tr>\n
+Action.c(296):     <tr><td>&nbsp;</td><td>&nbsp;</td></tr>\n
+Action.c(296):     </table><input type="hidden" name="JSFormSubmit" value="off"/>\n
+Action.c(296):     </form>\n
+Action.c(296):     \n
+Action.c(296):     </body>\n
+Action.c(296):     </html>\n
+Action.c(296): Resource "http://localhost:1080/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(296): t=519182ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=559)
+Action.c(296):     0\r\n
+Action.c(296):     \r\n
+Action.c(296): t=519182ms: Request done "http://localhost:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26000]
+Action.c(296): Registered web_reg_find successful for "Text=A Session ID has been created" (count=1)  	[MsgId: MMSG-26364]
+Action.c(296): web_url("SignOff Button") was successful, 2172 body bytes, 582 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(307): Notify: Transaction "logout" ended with a "Pass" status (Duration: 0,0622 Wasted Time: 0,0000).	[MsgId: MMSG-16871]
+Action.c(310): Notify: Transaction "UC3_BuyTicket" ended with a "Pass" status (Duration: 25,5607 Think Time: 25,0440 Wasted Time: 0,0020).	[MsgId: MMSG-16870]
+Ending action Action.	[MsgId: MMSG-15918]
+Action was aborted.	[MsgId: MMSG-10694]
+Ending Vuser...	[MsgId: MMSG-15966]
+Starting action vuser_end.	[MsgId: MMSG-15919]
+Ending action vuser_end.	[MsgId: MMSG-15918]
+Vuser Terminated.	[MsgId: MMSG-15963]
+t=519183ms: Closed connection [0] to localhost:1080 after completing 4 request(s)  	[MsgId: MMSG-26000]
+t=519183ms: Closed connection [1] to localhost:1080 after completing 2 request(s)  	[MsgId: MMSG-26000]
+HTML-Mode memory management statistics: Reusable=5, NonReusable=0, CsMemBlockSize=4096, checks disabled  	[MsgId: MMSG-26000]
+Vuser 2 (thread 16420), ended OK."	[MsgId: MMSG-10695]
+Action.c(87): Notify: Transaction "UC3_BuyTicket" ended with a "Stop" status (Duration: 8,9199 Think Time: 5,0078 Wasted Time: 0,0004).	[MsgId: MMSG-16870]
+Abort was called from an action.	[MsgId: MMSG-10447]
+Ending Vuser...	[MsgId: MMSG-15966]
+Starting action vuser_end.	[MsgId: MMSG-15919]
+Ending action vuser_end.	[MsgId: MMSG-15918]
+Vuser Terminated.	[MsgId: MMSG-15963]
+Action.c(87): t=520980ms: Closed connection [0] to localhost:1080 after completing 5 request(s)  	[MsgId: MMSG-26000]
+Action.c(87): t=520980ms: Closed connection [1] to localhost:1080 after completing 1 request(s)  	[MsgId: MMSG-26000]
+Action.c(87): t=520980ms: Closed connection [2] to localhost:1080 after completing 1 request(s)  	[MsgId: MMSG-26000]
+Action.c(87): t=520980ms: Closed connection [3] to localhost:1080 after completing 1 request(s)  	[MsgId: MMSG-26000]
+Action.c(87): t=520981ms: Closed connection [4] to localhost:1080 after completing 1 request(s)  	[MsgId: MMSG-26000]
+Action.c(87): t=520981ms: Closed connection [5] to localhost:1080 after completing 1 request(s)  	[MsgId: MMSG-26000]
+HTML-Mode memory management statistics: Reusable=5, NonReusable=0, CsMemBlockSize=4096, checks disabled  	[MsgId: MMSG-26000]
+Vuser 0 (thread 11928), ended OK."	[MsgId: MMSG-10695]

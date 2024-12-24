@@ -84,7 +84,7 @@ Action()
 	
 	lr_think_time(5);
 
-	lr_start_transaction("GoTo Fligths");
+	lr_start_transaction("GoTo Flights");
 
 	web_add_header("Priority", 
 		"u=4");
@@ -113,7 +113,7 @@ Action()
 		"Mode=HTML", 
 		LAST);
 
-	lr_end_transaction("GoTo Fligths",LR_AUTO);
+	lr_end_transaction("GoTo Flights",LR_AUTO);
 
 	lr_think_time(5);
 

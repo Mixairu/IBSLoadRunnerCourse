@@ -45,7 +45,7 @@ Action()
 	
 	lr_think_time(5);
 
-	lr_start_transaction("login");
+	lr_start_transaction("Login");
 
 	web_add_auto_header("Priority", 
 		"u=4");
@@ -79,7 +79,7 @@ Action()
 		LAST);
 
 
-	lr_end_transaction("login",LR_AUTO);
+	lr_end_transaction("Login",LR_AUTO);
 	
 	lr_think_time(5);
 

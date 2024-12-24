@@ -119,7 +119,7 @@ Action()
 		"1");
 
 	
-//	web_reg_find("Text=<title>Welcome to Web Tours</title>",LAST);
+	web_reg_find("Text=<title>Welcome to Web Tours</title>",LAST);
 	
 	web_reg_find("Text=Thank you, <b>{username}</b>, for registering",LAST);
 	
